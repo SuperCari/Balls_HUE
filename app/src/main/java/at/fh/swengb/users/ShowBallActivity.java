@@ -14,8 +14,9 @@ public class ShowBallActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        int toint;
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_show_user);
+        setContentView(R.layout.activity_show_ball);
 
         Intent intent = getIntent();
         ball = (Ball) intent.getExtras().get("ball");
@@ -23,15 +24,15 @@ public class ShowBallActivity extends AppCompatActivity {
         TextView viewFirstName = (TextView) findViewById(R.id.textViewFirstName);
         TextView viewLastName = (TextView) findViewById(R.id.textViewLastName);
         TextView viewAddress = (TextView) findViewById(R.id.textViewAddress);
-        TextView viewPhone = (TextView) findViewById(R.id.textViewPhone);
+        //TextView viewPhone = (TextView) findViewById(R.id.textViewPhone);
 
-        viewFirstName.setText((int) ball.getSize());
+        viewFirstName.setText(String.valueOf(ball.getSize()));
         viewLastName.setText(ball.getProducer());
         viewAddress.setText(ball.getColor());
 
 
     }
-
+/*
     public void showOnMap(View view) {
         // Map point based on address
         Uri location = Uri.parse("geo:0,0?q="+ball.getSize());
@@ -39,5 +40,5 @@ public class ShowBallActivity extends AppCompatActivity {
         startActivity(mapIntent);
     }
 
-
+*/
 }

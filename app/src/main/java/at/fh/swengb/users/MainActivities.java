@@ -42,7 +42,7 @@ public class MainActivities extends AppCompatActivity implements AdapterView.OnI
      public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
         Ball selectedBall = listBall.get(i);
         Intent intent = new Intent(view.getContext(),ShowBallActivity.class);
-        intent.putExtra("Ball",selectedBall);
+        intent.putExtra("ball",selectedBall);
         startActivity(intent);
     }
 }

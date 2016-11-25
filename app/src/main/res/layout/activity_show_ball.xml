@@ -19,14 +19,14 @@
         android:layout_alignParentStart="true">
 
         <TextView
-            android:text="User Details"
+            android:text="BALL Details"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView"
             android:textSize="30sp" />
 
         <TextView
-            android:text="TextView"
+            android:text="Size"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textViewFirstName"
@@ -34,25 +34,18 @@
             android:layout_marginTop="30dp" />
 
         <TextView
-            android:text="TextView"
+            android:text="Producer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textViewLastName"
             android:textSize="24sp" />
 
         <TextView
-            android:text="TextView"
+            android:text="Color"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textViewAddress"
             android:layout_marginTop="30dp"
-            android:textSize="24sp" />
-
-        <TextView
-            android:text="TextView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/textViewPhone"
             android:textSize="24sp" />
 
         <LinearLayout
