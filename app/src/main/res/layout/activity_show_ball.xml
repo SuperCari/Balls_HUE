@@ -54,21 +54,6 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp">
 
-            <Button
-                android:text="Show"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/buttonMap"
-                android:layout_weight="1"
-                android:onClick="showOnMap (ShowUserActivity)" />
-
-            <Button
-                android:text="Call"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/buttonCall"
-                android:layout_weight="1"
-                android:onClick="call (ShowUserActivity)" />
         </LinearLayout>
 
     </LinearLayout>
